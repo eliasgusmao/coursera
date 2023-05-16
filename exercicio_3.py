@@ -11,7 +11,7 @@ C: Veículos com quatro rodas ou mais e com peso entre 3500 e 6000 kg;
 D: Veículos com quatro rodas ou mais e que acomodam mais de oito pessoas; E: Veículos com quatro rodas ou mais e com mais de 6000 kg. 
 '''
 
-qtd_rodas, peso, qtd_pessoas: 
+qtd_rodas, peso, qtd_pessoas: float
 
 if qtd_rodas <= 3 
 print ('categoria a - Veículos com duas ou três rodas')
